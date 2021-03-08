@@ -2,19 +2,19 @@
 
 ## Projcet Meta
 
-Team: 
+### Team: 
 
-Facebook Project: Yes
+### Facebook Project: Yes
 
-Project Title: Transformer Adapter Capstone Project
+### Project Title: Transformer Adapter Capstone Project
 
-Project Summary:
+### Project Summary:
 
-Approach:
+### Approach:
 
-Datasets:
+### Datasets:
 
-Team Members:
+### Team Members:
 
 Zhongshui Cao
 
@@ -22,5 +22,5 @@ Qiyuan Wu
 
 Yiyun Zhang
 
-Looking for more members:
+### Looking for more members:
 No
