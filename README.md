@@ -2,7 +2,7 @@
 
 ## Projcet Meta
 
-### Team: 
+### Team: More Than Meets the Eye
 
 ### Facebook Project: Yes
 
