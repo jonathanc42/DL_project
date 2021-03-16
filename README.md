@@ -15,8 +15,10 @@ Pre-trained Transformer language model achieve strong performance on many NLP ta
 
 ### Approach:
 
-•	We would like to first apply transfer learning to finetune a base distilbert model for each individual task. Choosing the distilbert based on the lean resources it requires, and can also cross validate the result on RoBERTa in the paper.
-•	We will also build transformer adapter model with distilbert and then compare it with the fine-tuning models. As the result shown in Gururangan et al. (2020), we expect to reproduce and prove the domain-adaptive pretraining leads to performance gains. We plan to proceed to TAPT first for time concern.
+•	We will first apply transfer learning to finetune a base distilbert model for each individual task. Choosing the distilbert based on the lean resources it requires, and can also cross validate the result on RoBERTa in the paper.
+
+•	We will then build transformer adapter model with distilbert and then compare it with the fine-tuning models. As the result shown in Gururangan et al. (2020), we expect to reproduce and prove the domain-adaptive pretraining leads to performance gains. We plan to proceed to TAPT first for time concern.
+
 •	As a stretch goal, we want to research the disadvantages and potential limitation of the adaptive model.
 
 ### Resources/Related Work:
