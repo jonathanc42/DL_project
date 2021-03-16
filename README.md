@@ -10,9 +10,35 @@
 
 ### Project Summary:
 
+Pre-trained Transformer language model achieve strong performance on many NLP tasks. However, in multi-task application, fine-tuning models and storing weights for each task can be quite challenging. For large model, there could be billions of parameters (Pfeiffer et al., 2020). Adding adapter modules in the transformer model can solve this problem. Adapter modules are introduced as an alternative lightweight fine-tuning strategy and yield a compact and extensible model. They add only a few trainable parameters per task, and new tasks can be added without revisiting previous ones (Houlsby et al., 2019). We would like to create adapters for transformer model and compare the performance with fine-tuning alone. We want to understand how the adapter module can improve the efficiency and discover more benefits of using the adapters.
+
+
 ### Approach:
 
+•	We would like to first apply transfer learning to finetune a base distilbert model for each individual task. Choosing the distilbert based on the lean resources it requires, and can also cross validate the result on RoBERTa in the paper.
+•	We will also build transformer adapter model with distilbert and then compare it with the fine-tuning models. As the result shown in Gururangan et al. (2020), we expect to reproduce and prove the domain-adaptive pretraining leads to performance gains. We plan to proceed to TAPT first for time concern.
+•	As a stretch goal, we want to research the disadvantages and potential limitation of the adaptive model.
+
+### Resources/Related Work:
+[1] Suchin Gururangan, Ana Marasović, Swabha Swayamdipta, Kyle Lo, Iz Beltagy, Doug Downey, Noah A.Smith, “Don't Stop Pretraining: Adapt Language Models to Domains and Tasks“, In ACL 2020.
+
+[2] Neil Houlsby, Andrei Giurgiu, Stanislaw Jastrzebski, Bruna Morrone, Quentin de Laroussilhe, Andrea Gesmundo, Mona Attariyan, Sylvain Gelly, “Parameter-Efficient Transfer Learning for NLP”, In ICML 2019.
+
+[3] Jonas Pfeiffer, Andreas Rücklé, Clifton Poth, Aishwarya Kamath, Ivan Vulić, Sebastian Ruder, Kyunghyun Cho, Iryna Gurevych, “AdapterHub: A Framework for Adapting Transformers”, arXiv preprint.
+
+[4] https://course.fast.ai/#using-a-gpu
+
+[5] https://adapterhub.ml/
+
+[6] https://huggingface.co/transformers/
+
+[7] https://towardsdatascience.com/transformers-retraining-roberta-base-using-the-roberta-mlm-procedure-7422160d5764
+
+[8] https://huggingface.co/blog/how-to-train
+
 ### Datasets:
+
+Kaggle arXiv dataset
 
 ### Team Members:
 
