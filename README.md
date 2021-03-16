@@ -10,7 +10,7 @@
 
 ### Project Summary:
 
-Pre-trained Transformer language model achieve strong performance on many NLP tasks. However, in multi-task application, fine-tuning models and storing weights for each task can be quite challenging. For large model, there could be billions of parameters (Pfeiffer et al., 2020). Adding adapter modules in the transformer model can solve this problem. Adapter modules are introduced as an alternative lightweight fine-tuning strategy and yield a compact and extensible model. They add only a few trainable parameters per task, and new tasks can be added without revisiting previous ones (Houlsby et al., 2019). We would like to create adapters for transformer model and compare the performance with fine-tuning alone. We want to understand how the adapter module can improve the efficiency and discover more benefits of using the adapters.
+Pre-trained Transformer language models achieve strong performance on many NLP tasks. However, in multi-task application, fine-tuning models and storing weights for each task can be quite challenging. For large models, there could be billions of parameters (Pfeiffer et al., 2020) needed to be fine-tuned. Adding adapter modules in the transformer model can potentially solve this problem. Adapter modules are introduced as an alternative lightweight fine-tuning strategy and yield a compact and extensible model. They add only a few trainable parameters per task, and new tasks can be added without revisiting previous ones (Houlsby et al., 2019). We would like to create adapters for transformer model and compare the performance with advanced fine-tuning alone. We want to understand how the adapter module can improve the efficiency and discover more benefits of using the adapters.
 
 
 ### Approach:
