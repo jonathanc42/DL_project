@@ -24,9 +24,9 @@ Pre-trained Transformer language models achieve strong performance on many NLP t
 ### Resources/Related Work:
 [1] [Suchin Gururangan, Ana Marasović, Swabha Swayamdipta, Kyle Lo, Iz Beltagy, Doug Downey, Noah A.Smith, “Don't Stop Pretraining: Adapt Language Models to Domains and Tasks“, In ACL 2020.](https://arxiv.org/abs/2004.10964)
 
-[2] Neil Houlsby, Andrei Giurgiu, Stanislaw Jastrzebski, Bruna Morrone, Quentin de Laroussilhe, Andrea Gesmundo, Mona Attariyan, Sylvain Gelly, “Parameter-Efficient Transfer Learning for NLP”, In ICML 2019.
+[2] [Neil Houlsby, Andrei Giurgiu, Stanislaw Jastrzebski, Bruna Morrone, Quentin de Laroussilhe, Andrea Gesmundo, Mona Attariyan, Sylvain Gelly, “Parameter-Efficient Transfer Learning for NLP”, In ICML 2019.](https://arxiv.org/abs/1902.00751)
 
-[3] Jonas Pfeiffer, Andreas Rücklé, Clifton Poth, Aishwarya Kamath, Ivan Vulić, Sebastian Ruder, Kyunghyun Cho, Iryna Gurevych, “AdapterHub: A Framework for Adapting Transformers”, arXiv preprint.
+[3] [Jonas Pfeiffer, Andreas Rücklé, Clifton Poth, Aishwarya Kamath, Ivan Vulić, Sebastian Ruder, Kyunghyun Cho, Iryna Gurevych, “AdapterHub: A Framework for Adapting Transformers”, arXiv preprint.](https://arxiv.org/abs/2007.07779)
 
 [4] https://course.fast.ai/#using-a-gpu
 
@@ -42,12 +42,23 @@ Pre-trained Transformer language models achieve strong performance on many NLP t
 
 Kaggle arXiv dataset
 
+#### Pretrain data
+
+[S2ORC: The Semantic Scholar Open Research Corpus](https://arxiv.org/abs/1911.02782)
+
+[github](https://github.com/allenai/s2orc)
+
+
+#### Task data from dont_stop_pretraining
+
 https://github.com/allenai/dont-stop-pretraining#downloading-data
 ```bash
 curl https://allennlp.s3-us-west-2.amazonaws.com/dont_stop_pretraining/data/chemprot/train.jsonl -o ./data/train.jsonl
 curl https://allennlp.s3-us-west-2.amazonaws.com/dont_stop_pretraining/data/chemprot/dev.jsonl -o ./data/dev.jsonl
 curl https://allennlp.s3-us-west-2.amazonaws.com/dont_stop_pretraining/data/chemprot/test.jsonl -o ./data/test.jsonl
 ```
+
+
 ### Team Members:
 
 Zhongshui Cao
