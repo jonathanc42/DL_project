@@ -42,6 +42,12 @@ Pre-trained Transformer language models achieve strong performance on many NLP t
 
 Kaggle arXiv dataset
 
+https://github.com/allenai/dont-stop-pretraining#downloading-data
+```bash
+curl https://allennlp.s3-us-west-2.amazonaws.com/dont_stop_pretraining/data/chemprot/train.jsonl -o ./data/train.jsonl
+curl https://allennlp.s3-us-west-2.amazonaws.com/dont_stop_pretraining/data/chemprot/dev.jsonl -o ./data/dev.jsonl
+curl https://allennlp.s3-us-west-2.amazonaws.com/dont_stop_pretraining/data/chemprot/test.jsonl -o ./data/test.jsonl
+```
 ### Team Members:
 
 Zhongshui Cao
