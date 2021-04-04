@@ -22,7 +22,7 @@ Pre-trained Transformer language models achieve strong performance on many NLP t
 •	As a stretch goal, we want to research the disadvantages and potential limitation of the adaptive model.
 
 ### Resources/Related Work:
-[1] Suchin Gururangan, Ana Marasović, Swabha Swayamdipta, Kyle Lo, Iz Beltagy, Doug Downey, Noah A.Smith, “Don't Stop Pretraining: Adapt Language Models to Domains and Tasks“, In ACL 2020.
+[1] [Suchin Gururangan, Ana Marasović, Swabha Swayamdipta, Kyle Lo, Iz Beltagy, Doug Downey, Noah A.Smith, “Don't Stop Pretraining: Adapt Language Models to Domains and Tasks“, In ACL 2020.](https://arxiv.org/abs/2004.10964)
 
 [2] Neil Houlsby, Andrei Giurgiu, Stanislaw Jastrzebski, Bruna Morrone, Quentin de Laroussilhe, Andrea Gesmundo, Mona Attariyan, Sylvain Gelly, “Parameter-Efficient Transfer Learning for NLP”, In ICML 2019.
 
