@@ -1,0 +1,20 @@
+name: dl_project
+channels:
+  - huggingface
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8.8
+  - transformers=4.5.1
+  - pandas=1.2.4
+  - jupyterlab
+  - pip=21.0.1
+  - pip:
+    - boto3
+    - botocore
+    - s3fs
+    - torch==1.8.1
+    - captum==0.3.1
+    - mlflow
+    - ipython
+    - adapter-transformers
