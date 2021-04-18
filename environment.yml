@@ -1,20 +1,20 @@
 name: dl_project
 channels:
   - huggingface
+  - pytorch
   - conda-forge
   - defaults
 dependencies:
-  - python=3.8.8
-  - transformers=4.5.1
+  - python=3.8.5
   - pandas=1.2.4
+  - pytorch=1.7.1
+  - torchvision=0.8.2
+  - torchaudio=0.7.2
+  - cudatoolkit=11.0
+  - captum=0.3.1
   - jupyterlab
-  - pip=21.0.1
+  - pip=20.3.3
   - pip:
-    - boto3
-    - botocore
-    - s3fs
-    - torch==1.8.1
-    - captum==0.3.1
-    - mlflow
-    - ipython
-    - adapter-transformers
+    - adapter-transformers==1.1.1
+    - datasets==1.5.0
+    - huggingface-hub==0.0.8
