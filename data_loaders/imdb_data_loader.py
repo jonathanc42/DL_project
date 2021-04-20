@@ -59,7 +59,7 @@ class TaskDataset(datasets.GeneratorBasedBuilder):
         ]
     
     def _generate_examples(self, filepath):
-        with open(filepath) as f:
+        with open(filepath, encoding="utf8") as f:
             for id_, line in enumerate(f):
                 data = json.loads(line)
                 text = data['text']
