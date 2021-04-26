@@ -1,0 +1,9 @@
+/model/
+*/.ipynb_checkpoints/
+*.ipynb_checkpoints
+/test-mlm/
+*.log
+/example/
+/data/*.jsonl
+/runs/
+/.idea/
