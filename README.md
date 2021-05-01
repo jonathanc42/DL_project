@@ -52,11 +52,7 @@ Kaggle arXiv dataset
 #### Task data from dont_stop_pretraining
 
 https://github.com/allenai/dont-stop-pretraining#downloading-data
-```bash
-curl https://allennlp.s3-us-west-2.amazonaws.com/dont_stop_pretraining/data/chemprot/train.jsonl -o ./data/chemprot_train.jsonl
-curl https://allennlp.s3-us-west-2.amazonaws.com/dont_stop_pretraining/data/chemprot/dev.jsonl -o ./data/chemprot_dev.jsonl
-curl https://allennlp.s3-us-west-2.amazonaws.com/dont_stop_pretraining/data/chemprot/test.jsonl -o ./data/chemprot_test.jsonl
-```
+/data/dataset.py
 
 
 ### Team Members:
